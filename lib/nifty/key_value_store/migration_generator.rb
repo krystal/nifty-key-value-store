@@ -13,7 +13,7 @@ module Nifty
       end
       
       def create_model_file
-        migration_template 'migration.rb', "db/migrate/create_nifty_key_value_store_table"
+        migration_template 'migration.rb', "db/migrate/create_nifty_key_value_store_table.rb"
       end
       
     end
