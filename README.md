@@ -3,6 +3,12 @@
 If you want to create a quick key/value store in your application where the values relate to an
 existing model, this is very helpful.
 
+Add the gem to the Gemfile
+
+```
+gem "nifty-key-value-store", require: "nifty/key_value_store"
+```
+
 You'll need to create the database table and then, once added, you can specify what objects
 you want to store.
 
